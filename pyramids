@@ -1,0 +1,16 @@
+#include<stdio.h>
+main()
+{
+	int i,j,row;
+	printf("enter no fo rows");
+	scanf("%d",&row);
+	for(i=0;i<=row;i++)
+	{
+		for(j=0;j<=i;j++)
+		{
+			printf("*");
+		}
+		printf("\n");//same here for reverse pyramid negative sign will come thats the only difference
+		
+	}
+}
